@@ -11,26 +11,26 @@ public class Nicole_MovableRectangle implements Nicole_Movable {
 	
 	@Override
 	public void moveUp() {
-		this.topLeft.y -= this.topLeft.ySpeed;
-		this.bottomRight.y -= this.bottomRight.ySpeed;
+		topLeft.moveUp();
+		bottomRight.moveUp();
 	}
 	
 	@Override
 	public void moveDown() {
-		this.topLeft.y += this.topLeft.ySpeed;
-		this.bottomRight.y += this.bottomRight.ySpeed;
+		topLeft.moveDown();
+		bottomRight.moveDown();
 	}
 	
 	@Override
 	public void moveLeft() {
-		this.topLeft.x -= this.topLeft.xSpeed;
-		this.bottomRight.x -= this.bottomRight.xSpeed;
+		topLeft.moveLeft();
+		bottomRight.moveLeft();
 	}
 	
 	@Override
 	public void moveRight() {
-		this.topLeft.x += this.topLeft.xSpeed;
-		this.bottomRight.x += this.bottomRight.xSpeed;
+		topLeft.moveRight();
+		bottomRight.moveRight();
 	}
 	
 	public String toString() {
