@@ -6,7 +6,7 @@ public class Nicole_MovableCircle implements Nicole_Movable{
 	private Nicole_MovablePoint center;
 	
 	public Nicole_MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
-		this.center = new Nicole_MovablePoint(x, y, xSpeed, ySpeed);
+		center = new Nicole_MovablePoint(x, y, xSpeed, ySpeed);
 		this.radius = radius;
 		
 	}
@@ -17,22 +17,21 @@ public class Nicole_MovableCircle implements Nicole_Movable{
 
 	
 	public void moveUp() {
-		center.y -= center.ySpeed;		
+		center.moveUp();		
 	}
 
 	
 	public void moveDown() {
-		center.y += center.ySpeed;		
+		center.moveDown();		
 	}
 
 	
 	public void moveLeft() {
-		center.x -= center.xSpeed;		
+		center.moveLeft();		
 	}
 
 	
 	public void moveRight() {
-		center.x += center.xSpeed;		
+		center.moveRight();		
 	}
 }
-
