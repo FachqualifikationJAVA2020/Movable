@@ -34,6 +34,6 @@ public class Nicole_MovableRectangle implements Nicole_Movable {
 	}
 	
 	public String toString() {
-		return "MovableRectangle = topLeft: " + this.topLeft + "\nbottomRight: " + this.bottomRight + "\n\n";
+		return "MovableRectangle topLeft: " + this.topLeft + "\nMovableRectangle bottomRight: " + this.bottomRight + "\n\n";
 	}
 }
