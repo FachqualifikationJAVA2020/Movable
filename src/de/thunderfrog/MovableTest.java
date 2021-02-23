@@ -9,7 +9,9 @@ public class MovableTest {
         m1.moveLeft();
         System.out.println(m1);
 
+        // #####################
         System.out.println();
+        // #####################
 
         System.out.println("CIRCLE:");
         Movable m2 = new MovableCircle(1, 2, 3, 4, 20);
@@ -17,12 +19,16 @@ public class MovableTest {
         m2.moveRight();
         System.out.println(m2);
 
+        // #####################
         System.out.println();
+        // #####################
 
         System.out.println("RECTANGLE:");
         Movable m3 = new MovableRectangle(1, 2, 3, 4, 20,20);
         System.out.println(m3);
         m3.moveUp();
+        System.out.println(m3);
+        m3.moveDown();
         System.out.println(m3);
 
     }

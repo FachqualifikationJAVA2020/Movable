@@ -29,7 +29,7 @@ public class MovablePoint implements Movable{
 
     @Override
     public void moveDown() {
-        y +=ySpeed;
+        y += ySpeed;
 
     }
 
