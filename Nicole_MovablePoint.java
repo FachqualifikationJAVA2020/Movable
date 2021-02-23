@@ -6,9 +6,9 @@ public class Nicole_MovablePoint implements Nicole_Movable {
 	protected int xSpeed;
 	protected int ySpeed;
 	
-	public Nicole_MovablePoint(int nX , int nY , int xSpeed, int ySpeed) {
-		this.x = nX;
-		this.y = nY;
+	public Nicole_MovablePoint(int x , int y , int xSpeed, int ySpeed) {
+		this.x = x;
+		this.y = y;
 		this.xSpeed = xSpeed;
 		this.ySpeed = ySpeed;
 	}
